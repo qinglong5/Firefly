@@ -2,7 +2,7 @@
 title: My First Blog Post
 published: 2026-06-13
 description: This is the first post of my new Astro blog.
-image: ./images/firefly2.avif  # 或使用 "api" 来启用随机封面图
+image: api  # 或使用 "api" 来启用随机封面图
 tags: [Foo, Bar]
 category: Front-end
 draft: false
