@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"个人记录生活学习工作blog",
 
 	// 站点关键词
 	keywords: [
@@ -36,7 +36,7 @@ export const siteConfig: SiteConfig = {
 		// 是否对访问者隐藏主题色选择器
 		fixed: false,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
-		defaultMode: "system",
+		defaultMode: "dark",
 	},
 
 	// 页面整体宽度（单位：rem）
@@ -100,15 +100,15 @@ export const siteConfig: SiteConfig = {
 	// 关闭后请前往src/config/navBarConfig.ts中手动移除对应页面的导航栏链接
 	pages: {
 		// 友链页面开关
-		friends: true,
+		friends: false,
 		// 赞助页面开关
-		sponsor: true,
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
@@ -120,9 +120,9 @@ export const siteConfig: SiteConfig = {
 	// 文章列表布局配置
 	postListLayout: {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（多列布局）
-		defaultMode: "list",
+		defaultMode: "grid",
 		// 移动端默认布局模式，不设置则跟随 defaultMode
-		mobileDefaultMode: "list",
+		mobileDefaultMode: "grid",
 		// 是否在文章列表中显示标签
 		showTags: true,
 		// 文章简介显示行数，设为 0 则不截断
