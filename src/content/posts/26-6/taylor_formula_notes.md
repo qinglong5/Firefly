@@ -1,7 +1,7 @@
 ---
 title: 泰勒公式与常见泰勒展开
 published: 2026-06-13
-tags: [高等数学, 泰勒公式, 数学笔记]
+tags: [泰勒公式, 数学笔记]
 category: 数学笔记
 draft: false
 ---
