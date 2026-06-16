@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "sjxqf",
 
 	// 站点 URL
-	site_url: "https://sjxqf.com",
+	site_url: "https://blog.sjxqf.com",
 
 	// 站点描述
 	description:
